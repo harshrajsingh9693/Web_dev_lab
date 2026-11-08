@@ -11,23 +11,23 @@ Completed.
 A simple personal portfolio page was created and committed.
 
 ### P3: Feature-branch Git workflow
-This task demonstrates the Git feature branch workflow using a `feature/about-page` branch.
+This task demonstrates the Git feature-branch workflow using a separate branch for new work.
 
-## P3 Git workflow
+### P4: GitHub README and version tags
+This task focuses on improving the project README and creating a version tag for the project release.
+
+## P4 Git commands
 
 ```bash
-git checkout -b feature/about-page
 git status
 git add .
-git commit -m "Add about section"
-git checkout main
-git merge feature/about-page
+git commit -m "Update README and finalize project"
+git tag -a v1.0.0 -m "Initial release"
 git push origin main
+git push origin v1.0.0
 ```
 
-## Branch workflow summary
-- Create a feature branch for a new change.
-- Make edits and commit them.
-- Switch back to `main`.
-- Merge the feature branch into `main`.
-- Push the final result to GitHub.
+## What this task does
+- Updates the repository README with project information
+- Adds a version tag for the project release
+- Helps keep the GitHub project organized and professional
