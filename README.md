@@ -1,29 +1,33 @@
 # Web_dev_lab
 
-This repository is for the lab work of **Programming for Web Development – I**.
+This repository contains the lab work for **Programming for Web Development – I**.
 
-## Module 1
+## Module 1: Terminal, Git & GitHub
 
 ### P1: Project folder and terminal navigation
+Completed.
 
-This is the first task of the lab. It focuses on creating a project folder, using the terminal, and navigating the filesystem.
+### P2: Portfolio repo with an initial commit
+A simple personal portfolio page was created and committed.
 
-## Basic terminal commands
+### P3: Feature-branch Git workflow
+This task demonstrates the Git feature branch workflow using a `feature/about-page` branch.
+
+## P3 Git workflow
 
 ```bash
-mkdir Web_dev_lab
-cd Web_dev_lab
-pwd
-ls
-mkdir project
-cd project
-ls -la
+git checkout -b feature/about-page
+git status
+git add .
+git commit -m "Add about section"
+git checkout main
+git merge feature/about-page
+git push origin main
 ```
 
-## Notes
-
-- `mkdir` creates a new folder.
-- `cd` changes the working directory.
-- `pwd` shows the current path.
-- `ls` lists files and folders.
-- `ls -la` shows hidden files too.
+## Branch workflow summary
+- Create a feature branch for a new change.
+- Make edits and commit them.
+- Switch back to `main`.
+- Merge the feature branch into `main`.
+- Push the final result to GitHub.
