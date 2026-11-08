@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P12 - CSS Grid Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="tag">Web Development Student</p>
+        <h1>Harsh Raj</h1>
+        <p>I am learning to create responsive websites using HTML and CSS.</p>
+        <a href="#projects" class="btn">View Projects</a>
+      </div>
+      <div class="hero-image" role="img" aria-label="Blue gradient portfolio illustration">
+        <div class="profile-box">Portfolio</div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>I am a first-year B.Tech CSE student practicing web design and front-end development.</p>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Featured Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="card-image image-one" role="img" aria-label="Blue project background"></div>
+          <div class="card-content">
+            <h3>Portfolio Website</h3>
+            <p>A personal page built with HTML and CSS.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-image image-two" role="img" aria-label="Green project background"></div>
+          <div class="card-content">
+            <h3>Landing Page</h3>
+            <p>A responsive page with a hero section and navigation.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-image image-three" role="img" aria-label="Pink project background"></div>
+          <div class="card-content">
+            <h3>Blog Design</h3>
+            <p>A card layout for sharing articles and updates.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p><a href="https://github.com/harshrajsingh9693">Visit my GitHub profile</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Harsh Raj</p>
+  </footer>
+</body>
+</html>
